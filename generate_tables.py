@@ -96,7 +96,7 @@ if __name__=='__main__':
     generated_wikicode = generate_wikicode(lang, lang_data, input_wikicode)
     #print(generated_wikicode)
 
-    site = pywikibot.Site(wikilang, 'wikipedia')
+    site = pywikibot.Site(lang, 'wikipedia')
     page = pywikibot.Page(site, f"{lang_data['main_page']}/{lang_data['translations']['sections'][extract_section_title(input_wikicode)]['subpage']}")
     tmp = page.text
     if tmp  == "":
