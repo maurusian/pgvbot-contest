@@ -2,6 +2,31 @@ import json
 import re
 import pywikibot
 
+def get_main_sections(text):
+    sections = re.split(r'(^==[^=]+==\n)', text, flags=re.MULTILINE)
+    main_sections = []
+    for i in range(1, len(sections), 2):
+        main_sections.append(sections[i] + sections[i + 1])
+    return main_sections
+
+def get_subpages(site, page_title):
+    prefix = page_title + '/'
+    subpages = []
+    for page in pywikibot.Page(pywikibot.Link(prefix, site)).getReferences(follow_redirects=False):
+        if page.title().startswith(prefix):
+            subpages.append(page)
+    return subpages
+
+def get_sections_from_page_and_subpages(site, page_title):
+    page = pywikibot.Page(site, page_title)
+    main_sections = get_main_sections(page.text)
+    subpages = get_subpages(site, page_title)
+
+    for subpage in subpages:
+        main_sections += get_main_sections(subpage.text)
+
+    return main_sections
+
 def extract_section_title(wikicode):
     section_title_pattern = r'==\s*(.*?)\s*=='
     match = re.search(section_title_pattern, wikicode)
@@ -9,14 +34,14 @@ def extract_section_title(wikicode):
     
 
 def parse_qcodes(wikicode):
-    missing_pattern = r'=== Missing ===\n[\t ]*\{\{#invoke:Missing articles\|table\|(.+?)\}\}'
-    improve_pattern = r'=== To improve ===\n[\t ]*\{\{#invoke:Missing articles\|table\|(.+?)\}\}'
+    missing_pattern = r'=== Missing ===[\n]+[\t ]*\{\{#invoke:Missing articles\|table\|(.+?)\}\}'
+    improve_pattern = r'=== To improve ===[\n]+[\t ]*\{\{#invoke:Missing articles\|table\|(.+?)\}\}'
     
     missing_match = re.search(missing_pattern, wikicode)
     improve_match = re.search(improve_pattern, wikicode)
 
     missing_qcodes = missing_match.group(1).split('|') if missing_match else []
-    print(missing_qcodes)
+    #print(missing_qcodes)
     improve_qcodes = improve_match.group(1).split('|') if improve_match else []
 
     return missing_qcodes, improve_qcodes
@@ -26,19 +51,24 @@ def generate_wikicode(lang, lang_data, wikicode):
     supported_langs = lang_data["supported_languages"]
     translations = lang_data["translations"]
 
+    '''only for debugging
+    print(translations['missing_title'])
+    print(translations['sections'][extract_section_title(wikicode)]['section_title'])
+    print(translations['row_number'])
+    print(translations['topic'])
+    '''
+    
     missing_qcodes, improve_qcodes = parse_qcodes(wikicode)
 
     if len(missing_qcodes) > 0 or len(improve_qcodes) > 0:
         
-        template = f"""
-    == {translations['sections'][extract_section_title(wikicode)]['section_title']} ==
-    """
+        template = f"""== {translations['sections'][extract_section_title(wikicode)]['section_title']} ==
+"""
         if len(missing_qcodes) > 0:
-            template +="""
-    === {translations['missing_title']} ===
-    {{| class="wikitable"
-    ! {translations["row_number"]}\n! {translations['topic']}\n
-    """
+            template +=f"""=== {translations['missing_title']} ===
+{{| class="wikitable"
+! {translations["row_number"]}\n! {translations['topic']}\n
+"""
         
             for supported_lang in supported_langs:
                 template += f"! {translations[supported_lang]}\n"
@@ -74,40 +104,55 @@ def generate_wikicode(lang, lang_data, wikicode):
 
 
 if __name__=='__main__':
-    lang = "ar"
+
+    lang = "shi"
+    
+    metapage_title = f"User:Ideophagous/test/{lang}"
+
+    meta_site = pywikibot.Site('meta', 'meta')
+
     wikilangs = {"ar":"ary","ary":"ary","shi":"shi"}
+
     wikilang = wikilangs[lang]
     # Fetch the JSON data for the specified language project from the MediaWiki namespace
     site = pywikibot.Site(wikilang, 'wikipedia')
     json_page = pywikibot.Page(site, f'MediaWiki:{lang}_translation.json')
-    print(json_page)
+    #print(json_page)
     lang_data = json.loads(json_page.text)
 
-    input_wikicode = """
-    == Scientists and engineers ==
-    === Missing ===
-    {{#invoke:Missing articles|table|Q16269639|Q1912377|Q113633472|Q27960245|Q6916980|Q3216750|Q3351852|Q3474820|Q3571308|Q3484194|Q6085012|Q8059061|Q99658775|Q106291673|Q3018520|Q60834907|Q28146571|Q109470767}}
+    sections = get_sections_from_page_and_subpages(meta_site, metapage_title)
 
-    === To improve ===
-{{#invoke:Missing articles|table|Q56949282|Q2827656|Q19951780|Q2821278|Q74289744|Q3318806|Q718239|Q16195662|Q4664587|Q3017491|Q6524517|Q59149378|Q2821198|Q3126605|Q108846334|Q2850109|Q2821128|Q108839644|Q65707471|Q65659104}}
+    for section in sections:
 
-    """
+        generated_wikicode = generate_wikicode(lang, lang_data, section)
+        #print(generated_wikicode)
 
-    generated_wikicode = generate_wikicode(lang, lang_data, input_wikicode)
-    #print(generated_wikicode)
+        site = pywikibot.Site(wikilang, 'wikipedia')
+        section_title = extract_section_title(section)
+        title = f"{lang_data['main_page']}/{lang_data['translations']['sections'][section_title]['subpage']}"
+        page = pywikibot.Page(site, title)
+        tmp = page.text
+        if tmp  == "":
+            tmp = generated_wikicode
+        else:
+            if section_title not in tmp:
+                tmp+="\n\n"+generated_wikicode
+        
+        footer = f"{lang_data['reservation_section']}"
 
-    site = pywikibot.Site(lang, 'wikipedia')
-    page = pywikibot.Page(site, f"{lang_data['main_page']}/{lang_data['translations']['sections'][extract_section_title(input_wikicode)]['subpage']}")
-    tmp = page.text
-    if tmp  == "":
-        tmp = generated_wikicode
-    else:
-        if section_title not in tmp:
-            tmp+="\n\n"+generated_wikicode
+        if footer not in tmp:
+            tmp+='\n\n'+footer
+        else:
+            tmp = tmp.replace(footer,"")
+            tmp+='\n\n'+footer #keep footer at the bottom
+        if tmp != page.text:
+            '''only for debugging
+            print(tmp)
+            page.text = tmp
+            print(page.title())
+            print(page.text)
+            print(lang_data["save_message"])
+            break
+            '''
+            page.save(lang_data["save_message"])
 
-    if tmp != page.text:
-        page.text = tmp
-        print(page.title())
-        print(page.text)
-        print(lang_data["save_message"])
-        page.save(lang_data["save_message"])
