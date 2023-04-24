@@ -148,11 +148,11 @@ if __name__=='__main__':
         if tmp != page.text:
             '''only for debugging
             print(tmp)
-            page.text = tmp
             print(page.title())
             print(page.text)
             print(lang_data["save_message"])
             break
             '''
+            page.text = tmp
             page.save(lang_data["save_message"])
 
