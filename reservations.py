@@ -400,7 +400,7 @@ def get_inline_reservation_line_from_table_reservation(table_reservation_line,qc
     completed_template = "{{"+f"{json_data['translations']['templates']['completed_template']}"+"}}"
     contrib_size_template = f"{json_data['translations']['templates']['contrib_size_template']}"
     inline_reservation_line = table_reservation_line.replace(underway_template,"").replace(completed_template,"")
-    inline_reservation_line = re.sub(r'\{\{'+contrib_size_template+'\|[^{}]*\}\}', '', wiki_code)
+    inline_reservation_line = re.sub(r'\{\{'+contrib_size_template+'\|[^{}]*\}\}', '', inline_reservation_line)
 
     return f"({qcode}) {inline_reservation_line}"
     
@@ -730,14 +730,14 @@ if __name__ == "__main__":
                                         
                             
                             
-                        #make sure to check for conflicting reservations
-                        #print(topic_reservation['reservation'])
-                        #print(topic_reservation['reserved_topics'])
-                    '''       
-                    else:
-                        #copy reservation to table line and add response
-                        pass
-                    '''
+            #make sure to check for conflicting reservations
+            #print(topic_reservation['reservation'])
+            #print(topic_reservation['reserved_topics'])
+            '''       
+            else:
+                #copy reservation to table line and add response
+                pass
+            '''
 
     
     if len(notification_list)>0:
