@@ -1,9 +1,73 @@
 import wikitextparser as wtp
-import pywikibot, re
+import pywikibot, re, json
 from datetime import datetime, timedelta
 
 COMPETITION_START = datetime(2023, 4, 25, 0, 0)
 COMPETITION_END = datetime(2023, 6, 10, 11, 59)
+
+def read_json_file(site, json_page_title):
+    json_page = pywikibot.Page(site, json_page_title)
+    json_content = json_page.get()
+    return json.loads(json_content)
+
+def load_participants(site,json_data):
+    user_template = json_data["translations"]["templates"]["user_template"]
+    user_temp_option = json_data["translations"]["templates"]["optional_user_template_param"]
+    username_pattern = r'\{\{'+user_template+'\|([^}]+)\}\}'
+    participants_page_title = f"{json_data['pages']['main_page']}/{json_data['pages']['participants_page']}"
+    participants_page = pywikibot.Page(site,participants_page_title)
+    
+    usernames = re.findall(username_pattern, participants_page.text)
+
+    # Filter out any non-matching usernames, like "-"
+
+    filtered_usernames = []
+    for username in usernames:
+        corrected_username = username.strip().replace("| ","|").replace("= ","=").replace(" =","=").replace(user_temp_option,"").strip()
+        if corrected_username not in json_data["IGNORE_PLACEHOLDERS"]:
+            filtered_usernames.append(corrected_username)
+
+    return filtered_usernames
+
+def properly_capitalize(s):
+    return s[0].upper() + s[1:]
+
+def get_user_contributions_until(username, site):
+    """
+    Get the number of contributions of a Wikipedia user until a specified datetime.
+
+    :param username: The username of the Wikipedia user.
+    :param site: A pywikibot.Site instance.
+    :param end_datetime: A datetime.datetime instance specifying the end date and time.
+    :return: The number of contributions until the specified datetime.
+    """
+    end_datetime = COMPETITION_START - timedelta(minutes=1)
+    user = pywikibot.User(site, username)
+    contributions = user.contributions(total=None, namespaces=None, end=end_datetime)
+    
+    return len(list(contributions))
+
+def page_has_category(page, category_title, site):
+    """
+    Check if a Wikipedia page belongs to a specific category.
+
+    :param page: The pywikibot.Page object of the Wikipedia page to check.
+    :type page: pywikibot.Page
+    :param category_title: The title of the category to check.
+    :type category_title: str
+    :param site: The pywikibot.Site object for the desired language edition of Wikipedia.
+    :type site: pywikibot.Site
+    :return: True if the page belongs to the category, False otherwise.
+    :rtype: bool
+    """
+    category = pywikibot.Category(site, category_title)
+
+    for cat in page.categories():
+        if cat == category:
+            return True
+
+    return False
+
 
 def remove_empty_lines(text: str) -> str:
     """
@@ -20,7 +84,7 @@ def user_modified_page_since(page: pywikibot.Page, username: str, date: datetime
     #starttime = max(date_minus_one_hour, COMPETITION_START)
     endtime = min(datetime.now(), COMPETITION_END)
 
-    print("checking page revisions for:",page.title())
+    #print("checking page revisions for:",page.title())
     #print(list(page.revisions(reverse=True)))
     #print(list(page.revisions(reverse=True, starttime=starttime, endtime=endtime)))
     
@@ -63,18 +127,22 @@ def is_more_than_one_day_old(dt: datetime) -> bool:
     :param dt: A datetime object to be checked.
     :return: True if the datetime object is more than 1 day old, False otherwise.
     """
-    now = datetime.now()
+    now = datetime.utcnow()
+    #print("now",now)
     one_day_ago = now - timedelta(days=1)
+    #print("one_day_ago",one_day_ago)
     return dt < one_day_ago
 
 
-def get_section_contents(page):
+def get_section_contents(page,json_data):
     sections = {}
     wikitext = page.text
 
     main_sections = list(re.finditer(r'(==[^=]+==\n)', wikitext))
 
-    # Remove the last main section
+    #print(main_sections)
+
+    # Remove the last main section, arwiki: حجز المقالات
     main_sections = main_sections[:-1]
 
     for i, main_section in enumerate(main_sections):
@@ -84,12 +152,15 @@ def get_section_contents(page):
         main_content = wikitext[main_start:main_end]
 
         sub_sections = list(re.finditer(r'(===[^=]+===\n)', main_content))
+        print(main_section)
+        print(sub_sections)
         sub_sections.append(re.search(r'(==[^=]+==\n)', main_content))
         sub_sections = [s for s in sub_sections if s is not None]
 
         sub_content_dict = {}
-        for j, sub_section in enumerate(sub_sections[:-1]):
+        for j, sub_section in enumerate(sub_sections): #[:-1]):
             sub_title = sub_section.group().strip('= \n')
+            print(sub_title)
             sub_start = sub_section.end()
             sub_end = sub_sections[j + 1].start() if j + 1 < len(sub_sections) else len(main_content)
             sub_content = main_content[sub_start:sub_end].strip()
@@ -100,8 +171,21 @@ def get_section_contents(page):
     
     # Remove the last subsection of the last main section
     last_main_section = list(sections.keys())[-1]
+    
     last_subsection = list(sections[last_main_section].keys())[-1]
-    del sections[last_main_section][last_subsection]
+    print("last_subsection",last_subsection)
+    if last_subsection == json_data["reservation_section_title"]:
+        print("deleting")
+        del sections[last_main_section][last_subsection]
+        #print(sections[last_main_section])
+    last_subsection = list(sections[last_main_section].keys())[-1]
+    if last_subsection == json_data["reservation_main_section_title"]:
+        print("deleting")
+        del sections[last_main_section][last_subsection]
+    last_subsection = list(sections[last_main_section].keys())[-1]
+    if last_subsection == json_data["reservation_section_title"]:
+        print("deleting")
+        del sections[last_main_section][last_subsection]
 
     return sections
 
@@ -157,7 +241,10 @@ def parse_wikipedia_table(wikitext: str, index) -> list:
     :param wikitext: A string containing the wikitext of a Wikipedia table.
     :return: A list of dictionaries, where each dictionary represents a row in the table with keys as the headers.
     """
+    print("calling parse_wikipedia_table")
     parsed_wikitext = wtp.parse(wikitext)
+    print(wikitext)
+    print(len(parsed_wikitext.tables))
     table = parsed_wikitext.tables[index]
     data = table.data()
 

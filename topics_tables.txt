@@ -1,0 +1,705 @@
+{| class="wikitable"
+! رقم المقالة
+! الموضوع
+! العربية
+! الإنجليزية
+! الفرنسية
+! الإسبانية
+! المشارك
+|-
+| 1
+| {{وصلة ويكي بيانات|Q3738286}}
+| {{#invoke:Sitelink|getSitelink2|Q3738286|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3738286|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3738286|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3738286|es}}
+| 
+|-
+| 2
+| {{وصلة ويكي بيانات|Q279040}}
+| {{#invoke:Sitelink|getSitelink2|Q279040|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q279040|en}}
+| {{#invoke:Sitelink|getSitelink2|Q279040|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q279040|es}}
+| 
+|-
+| 3
+| {{وصلة ويكي بيانات|Q632766}}
+| {{#invoke:Sitelink|getSitelink2|Q632766|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q632766|en}}
+| {{#invoke:Sitelink|getSitelink2|Q632766|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q632766|es}}
+| 
+|-
+| 4
+| {{وصلة ويكي بيانات|Q2821307}}
+| {{#invoke:Sitelink|getSitelink2|Q2821307|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2821307|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2821307|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2821307|es}}
+| 
+|-
+| 5
+| {{وصلة ويكي بيانات|Q3318694}}
+| {{#invoke:Sitelink|getSitelink2|Q3318694|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3318694|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3318694|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3318694|es}}
+| 
+|-
+| 6
+| {{وصلة ويكي بيانات|Q2445587}}
+| {{#invoke:Sitelink|getSitelink2|Q2445587|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2445587|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2445587|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2445587|es}}
+| 
+|-
+| 7
+| {{وصلة ويكي بيانات|Q3574645}}
+| {{#invoke:Sitelink|getSitelink2|Q3574645|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3574645|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3574645|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3574645|es}}
+| 
+|-
+| 8
+| {{وصلة ويكي بيانات|Q2557847}}
+| {{#invoke:Sitelink|getSitelink2|Q2557847|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2557847|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2557847|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2557847|es}}
+| 
+|-
+| 9
+| {{وصلة ويكي بيانات|Q3328920}}
+| {{#invoke:Sitelink|getSitelink2|Q3328920|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3328920|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3328920|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3328920|es}}
+| 
+|-
+| 10
+| {{وصلة ويكي بيانات|Q3318442}}
+| {{#invoke:Sitelink|getSitelink2|Q3318442|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3318442|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3318442|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3318442|es}}
+| 
+|-
+| 11
+| {{وصلة ويكي بيانات|Q2923567}}
+| {{#invoke:Sitelink|getSitelink2|Q2923567|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2923567|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2923567|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2923567|es}}
+| 
+|-
+| 12
+| {{وصلة ويكي بيانات|Q7409399}}
+| {{#invoke:Sitelink|getSitelink2|Q7409399|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q7409399|en}}
+| {{#invoke:Sitelink|getSitelink2|Q7409399|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q7409399|es}}
+| 
+|-
+| 13
+| {{وصلة ويكي بيانات|Q3826147}}
+| {{#invoke:Sitelink|getSitelink2|Q3826147|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3826147|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3826147|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3826147|es}}
+| 
+|-
+| 14
+| {{وصلة ويكي بيانات|Q3090799}}
+| {{#invoke:Sitelink|getSitelink2|Q3090799|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3090799|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3090799|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3090799|es}}
+| 
+|-
+| 15
+| {{وصلة ويكي بيانات|Q1123706}}
+| {{#invoke:Sitelink|getSitelink2|Q1123706|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q1123706|en}}
+| {{#invoke:Sitelink|getSitelink2|Q1123706|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q1123706|es}}
+| 
+|-
+| 16
+| {{وصلة ويكي بيانات|Q1604470}}
+| {{#invoke:Sitelink|getSitelink2|Q1604470|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q1604470|en}}
+| {{#invoke:Sitelink|getSitelink2|Q1604470|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q1604470|es}}
+| 
+|-
+| 17
+| {{وصلة ويكي بيانات|Q611185}}
+| {{#invoke:Sitelink|getSitelink2|Q611185|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q611185|en}}
+| {{#invoke:Sitelink|getSitelink2|Q611185|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q611185|es}}
+| 
+|-
+| 18
+| {{وصلة ويكي بيانات|Q3351890}}
+| {{#invoke:Sitelink|getSitelink2|Q3351890|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3351890|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3351890|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3351890|es}}
+| 
+|-
+| 19
+| {{وصلة ويكي بيانات|Q3845180}}
+| {{#invoke:Sitelink|getSitelink2|Q3845180|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3845180|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3845180|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3845180|es}}
+| 
+|-
+| 20
+| {{وصلة ويكي بيانات|Q2710399}}
+| {{#invoke:Sitelink|getSitelink2|Q2710399|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2710399|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2710399|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2710399|es}}
+| 
+|-
+| 21
+| {{وصلة ويكي بيانات|Q7063905}}
+| {{#invoke:Sitelink|getSitelink2|Q7063905|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q7063905|en}}
+| {{#invoke:Sitelink|getSitelink2|Q7063905|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q7063905|es}}
+| 
+|-
+| 22
+| {{وصلة ويكي بيانات|Q3573237}}
+| {{#invoke:Sitelink|getSitelink2|Q3573237|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3573237|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3573237|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3573237|es}}
+| 
+|-
+| 23
+| {{وصلة ويكي بيانات|Q439023}}
+| {{#invoke:Sitelink|getSitelink2|Q439023|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q439023|en}}
+| {{#invoke:Sitelink|getSitelink2|Q439023|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q439023|es}}
+| 
+|-
+| 24
+| {{وصلة ويكي بيانات|Q16889619}}
+| {{#invoke:Sitelink|getSitelink2|Q16889619|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q16889619|en}}
+| {{#invoke:Sitelink|getSitelink2|Q16889619|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q16889619|es}}
+| 
+|-
+| 25
+| {{وصلة ويكي بيانات|Q30118233}}
+| {{#invoke:Sitelink|getSitelink2|Q30118233|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q30118233|en}}
+| {{#invoke:Sitelink|getSitelink2|Q30118233|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q30118233|es}}
+| 
+|-
+| 26
+| {{وصلة ويكي بيانات|Q3319019}}
+| {{#invoke:Sitelink|getSitelink2|Q3319019|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3319019|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3319019|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3319019|es}}
+| 
+|-
+| 27
+| {{وصلة ويكي بيانات|Q1472692}}
+| {{#invoke:Sitelink|getSitelink2|Q1472692|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q1472692|en}}
+| {{#invoke:Sitelink|getSitelink2|Q1472692|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q1472692|es}}
+| 
+|-
+| 28
+| {{وصلة ويكي بيانات|Q3196019}}
+| {{#invoke:Sitelink|getSitelink2|Q3196019|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3196019|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3196019|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3196019|es}}
+| 
+|-
+| 29
+| {{وصلة ويكي بيانات|Q2288941}}
+| {{#invoke:Sitelink|getSitelink2|Q2288941|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2288941|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2288941|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2288941|es}}
+| 
+|-
+| 30
+| {{وصلة ويكي بيانات|Q2194392}}
+| {{#invoke:Sitelink|getSitelink2|Q2194392|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2194392|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2194392|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2194392|es}}
+| 
+|-
+| 31
+| {{وصلة ويكي بيانات|Q1359550}}
+| {{#invoke:Sitelink|getSitelink2|Q1359550|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q1359550|en}}
+| {{#invoke:Sitelink|getSitelink2|Q1359550|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q1359550|es}}
+| 
+|-
+| 32
+| {{وصلة ويكي بيانات|Q2692731}}
+| {{#invoke:Sitelink|getSitelink2|Q2692731|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2692731|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2692731|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2692731|es}}
+| 
+|-
+| 33
+| {{وصلة ويكي بيانات|Q3782852}}
+| {{#invoke:Sitelink|getSitelink2|Q3782852|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3782852|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3782852|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3782852|es}}
+| 
+|-
+| 34
+| {{وصلة ويكي بيانات|Q3191722}}
+| {{#invoke:Sitelink|getSitelink2|Q3191722|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3191722|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3191722|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3191722|es}}
+| 
+|-
+| 35
+| {{وصلة ويكي بيانات|Q1621442}}
+| {{#invoke:Sitelink|getSitelink2|Q1621442|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q1621442|en}}
+| {{#invoke:Sitelink|getSitelink2|Q1621442|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q1621442|es}}
+| 
+|-
+| 36
+| {{وصلة ويكي بيانات|Q3344894}}
+| {{#invoke:Sitelink|getSitelink2|Q3344894|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3344894|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3344894|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3344894|es}}
+| 
+|-
+| 37
+| {{وصلة ويكي بيانات|Q15845459}}
+| {{#invoke:Sitelink|getSitelink2|Q15845459|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q15845459|en}}
+| {{#invoke:Sitelink|getSitelink2|Q15845459|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q15845459|es}}
+| 
+|-
+| 38
+| {{وصلة ويكي بيانات|Q3416202}}
+| {{#invoke:Sitelink|getSitelink2|Q3416202|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3416202|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3416202|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3416202|es}}
+| 
+|-
+| 39
+| {{وصلة ويكي بيانات|Q3135189}}
+| {{#invoke:Sitelink|getSitelink2|Q3135189|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3135189|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3135189|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3135189|es}}
+| 
+|-
+| 40
+| {{وصلة ويكي بيانات|Q434600}}
+| {{#invoke:Sitelink|getSitelink2|Q434600|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q434600|en}}
+| {{#invoke:Sitelink|getSitelink2|Q434600|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q434600|es}}
+| 
+|-
+| 41
+| {{وصلة ويكي بيانات|Q2875002}}
+| {{#invoke:Sitelink|getSitelink2|Q2875002|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2875002|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2875002|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2875002|es}}
+| 
+|-
+| 42
+| {{وصلة ويكي بيانات|Q924488}}
+| {{#invoke:Sitelink|getSitelink2|Q924488|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q924488|en}}
+| {{#invoke:Sitelink|getSitelink2|Q924488|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q924488|es}}
+| 
+|-
+| 43
+| {{وصلة ويكي بيانات|Q4664784}}
+| {{#invoke:Sitelink|getSitelink2|Q4664784|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q4664784|en}}
+| {{#invoke:Sitelink|getSitelink2|Q4664784|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q4664784|es}}
+| 
+|-
+| 44
+| {{وصلة ويكي بيانات|Q2824449}}
+| {{#invoke:Sitelink|getSitelink2|Q2824449|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2824449|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2824449|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2824449|es}}
+| 
+|-
+| 45
+| {{وصلة ويكي بيانات|Q2821017}}
+| {{#invoke:Sitelink|getSitelink2|Q2821017|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2821017|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2821017|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2821017|es}}
+| 
+|-
+| 46
+| {{وصلة ويكي بيانات|Q2374474}}
+| {{#invoke:Sitelink|getSitelink2|Q2374474|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2374474|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2374474|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2374474|es}}
+| 
+|-
+| 47
+| {{وصلة ويكي بيانات|Q4664671}}
+| {{#invoke:Sitelink|getSitelink2|Q4664671|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q4664671|en}}
+| {{#invoke:Sitelink|getSitelink2|Q4664671|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q4664671|es}}
+| 
+|-
+| 48
+| {{وصلة ويكي بيانات|Q3720848}}
+| {{#invoke:Sitelink|getSitelink2|Q3720848|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3720848|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3720848|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3720848|es}}
+| 
+|-
+| 49
+| {{وصلة ويكي بيانات|Q3806356}}
+| {{#invoke:Sitelink|getSitelink2|Q3806356|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3806356|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3806356|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3806356|es}}
+| 
+|-
+| 50
+| {{وصلة ويكي بيانات|Q3326097}}
+| {{#invoke:Sitelink|getSitelink2|Q3326097|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3326097|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3326097|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3326097|es}}
+| 
+|-
+| 51
+| {{وصلة ويكي بيانات|Q22949025}}
+| {{#invoke:Sitelink|getSitelink2|Q22949025|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q22949025|en}}
+| {{#invoke:Sitelink|getSitelink2|Q22949025|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q22949025|es}}
+| 
+|-
+| 52
+| {{وصلة ويكي بيانات|Q3155695}}
+| {{#invoke:Sitelink|getSitelink2|Q3155695|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3155695|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3155695|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3155695|es}}
+| 
+|-
+| 53
+| {{وصلة ويكي بيانات|Q1996665}}
+| {{#invoke:Sitelink|getSitelink2|Q1996665|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q1996665|en}}
+| {{#invoke:Sitelink|getSitelink2|Q1996665|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q1996665|es}}
+| 
+|-
+| 54
+| {{وصلة ويكي بيانات|Q1983332}}
+| {{#invoke:Sitelink|getSitelink2|Q1983332|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q1983332|en}}
+| {{#invoke:Sitelink|getSitelink2|Q1983332|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q1983332|es}}
+| 
+|-
+| 55
+| {{وصلة ويكي بيانات|Q66360728}}
+| {{#invoke:Sitelink|getSitelink2|Q66360728|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q66360728|en}}
+| {{#invoke:Sitelink|getSitelink2|Q66360728|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q66360728|es}}
+| 
+|-
+| 56
+| {{وصلة ويكي بيانات|Q2655632}}
+| {{#invoke:Sitelink|getSitelink2|Q2655632|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2655632|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2655632|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2655632|es}}
+| 
+|-
+| 57
+| {{وصلة ويكي بيانات|Q2827614}}
+| {{#invoke:Sitelink|getSitelink2|Q2827614|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2827614|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2827614|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2827614|es}}
+| 
+|-
+| 58
+| {{وصلة ويكي بيانات|Q62717839}}
+| {{#invoke:Sitelink|getSitelink2|Q62717839|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q62717839|en}}
+| {{#invoke:Sitelink|getSitelink2|Q62717839|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q62717839|es}}
+| 
+|-
+| 59
+| {{وصلة ويكي بيانات|Q729870}}
+| {{#invoke:Sitelink|getSitelink2|Q729870|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q729870|en}}
+| {{#invoke:Sitelink|getSitelink2|Q729870|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q729870|es}}
+| 
+|-
+| 60
+| {{وصلة ويكي بيانات|Q6891318}}
+| {{#invoke:Sitelink|getSitelink2|Q6891318|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q6891318|en}}
+| {{#invoke:Sitelink|getSitelink2|Q6891318|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q6891318|es}}
+| 
+|-
+| 61
+| {{وصلة ويكي بيانات|Q3603350}}
+| {{#invoke:Sitelink|getSitelink2|Q3603350|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3603350|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3603350|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3603350|es}}
+| 
+|-
+| 62
+| {{وصلة ويكي بيانات|Q304221}}
+| {{#invoke:Sitelink|getSitelink2|Q304221|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q304221|en}}
+| {{#invoke:Sitelink|getSitelink2|Q304221|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q304221|es}}
+| 
+|-
+| 63
+| {{وصلة ويكي بيانات|Q3945292}}
+| {{#invoke:Sitelink|getSitelink2|Q3945292|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3945292|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3945292|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3945292|es}}
+| 
+|-
+| 64
+| {{وصلة ويكي بيانات|Q100986081}}
+| {{#invoke:Sitelink|getSitelink2|Q100986081|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q100986081|en}}
+| {{#invoke:Sitelink|getSitelink2|Q100986081|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q100986081|es}}
+| 
+|-
+| 65
+| {{وصلة ويكي بيانات|Q742935}}
+| {{#invoke:Sitelink|getSitelink2|Q742935|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q742935|en}}
+| {{#invoke:Sitelink|getSitelink2|Q742935|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q742935|es}}
+| 
+|-
+| 66
+| {{وصلة ويكي بيانات|Q17497040}}
+| {{#invoke:Sitelink|getSitelink2|Q17497040|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q17497040|en}}
+| {{#invoke:Sitelink|getSitelink2|Q17497040|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q17497040|es}}
+| 
+|-
+| 67
+| {{وصلة ويكي بيانات|Q2183352}}
+| {{#invoke:Sitelink|getSitelink2|Q2183352|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2183352|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2183352|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2183352|es}}
+| 
+|-
+| 68
+| {{وصلة ويكي بيانات|Q3860134}}
+| {{#invoke:Sitelink|getSitelink2|Q3860134|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3860134|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3860134|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3860134|es}}
+| 
+|-
+| 69
+| {{وصلة ويكي بيانات|Q2438182}}
+| {{#invoke:Sitelink|getSitelink2|Q2438182|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2438182|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2438182|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2438182|es}}
+| 
+|-
+| 70
+| {{وصلة ويكي بيانات|Q22948756}}
+| {{#invoke:Sitelink|getSitelink2|Q22948756|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q22948756|en}}
+| {{#invoke:Sitelink|getSitelink2|Q22948756|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q22948756|es}}
+| 
+|-
+| 71
+| {{وصلة ويكي بيانات|Q2669174}}
+| {{#invoke:Sitelink|getSitelink2|Q2669174|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2669174|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2669174|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2669174|es}}
+| 
+|-
+| 72
+| {{وصلة ويكي بيانات|Q3866468}}
+| {{#invoke:Sitelink|getSitelink2|Q3866468|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3866468|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3866468|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3866468|es}}
+| 
+|-
+| 73
+| {{وصلة ويكي بيانات|Q662504}}
+| {{#invoke:Sitelink|getSitelink2|Q662504|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q662504|en}}
+| {{#invoke:Sitelink|getSitelink2|Q662504|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q662504|es}}
+| 
+|-
+| 74
+| {{وصلة ويكي بيانات|Q2017161}}
+| {{#invoke:Sitelink|getSitelink2|Q2017161|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2017161|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2017161|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2017161|es}}
+| 
+|-
+| 75
+| {{وصلة ويكي بيانات|Q2378913}}
+| {{#invoke:Sitelink|getSitelink2|Q2378913|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2378913|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2378913|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2378913|es}}
+| 
+|-
+| 76
+| {{وصلة ويكي بيانات|Q3807326}}
+| {{#invoke:Sitelink|getSitelink2|Q3807326|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3807326|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3807326|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3807326|es}}
+| 
+|-
+| 77
+| {{وصلة ويكي بيانات|Q4664903}}
+| {{#invoke:Sitelink|getSitelink2|Q4664903|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q4664903|en}}
+| {{#invoke:Sitelink|getSitelink2|Q4664903|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q4664903|es}}
+| 
+|-
+| 78
+| {{وصلة ويكي بيانات|Q17190264}}
+| {{#invoke:Sitelink|getSitelink2|Q17190264|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q17190264|en}}
+| {{#invoke:Sitelink|getSitelink2|Q17190264|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q17190264|es}}
+| 
+|-
+| 79
+| {{وصلة ويكي بيانات|Q3318450}}
+| {{#invoke:Sitelink|getSitelink2|Q3318450|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q3318450|en}}
+| {{#invoke:Sitelink|getSitelink2|Q3318450|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q3318450|es}}
+| 
+|-
+| 80
+| {{وصلة ويكي بيانات|Q17632416}}
+| {{#invoke:Sitelink|getSitelink2|Q17632416|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q17632416|en}}
+| {{#invoke:Sitelink|getSitelink2|Q17632416|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q17632416|es}}
+| 
+|-
+| 81
+| {{وصلة ويكي بيانات|Q2395452}}
+| {{#invoke:Sitelink|getSitelink2|Q2395452|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2395452|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2395452|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2395452|es}}
+| 
+|-
+| 82
+| {{وصلة ويكي بيانات|Q2921655}}
+| {{#invoke:Sitelink|getSitelink2|Q2921655|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2921655|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2921655|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2921655|es}}
+| 
+|-
+| 83
+| {{وصلة ويكي بيانات|Q2799257}}
+| {{#invoke:Sitelink|getSitelink2|Q2799257|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q2799257|en}}
+| {{#invoke:Sitelink|getSitelink2|Q2799257|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q2799257|es}}
+| 
+|-
+| 84
+| {{وصلة ويكي بيانات|Q66714150}}
+| {{#invoke:Sitelink|getSitelink2|Q66714150|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q66714150|en}}
+| {{#invoke:Sitelink|getSitelink2|Q66714150|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q66714150|es}}
+| 
+|-
+| 85
+| {{وصلة ويكي بيانات|Q107269417}}
+| {{#invoke:Sitelink|getSitelink2|Q107269417|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q107269417|en}}
+| {{#invoke:Sitelink|getSitelink2|Q107269417|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q107269417|es}}
+| {{تم}} -[[User:أبو جاد|<span style="color:#A3352E; font-size:18px; font-family:IBM Plex Sans English;">'''أبـو جــاد'''</span>]] '''([[نقاش المستخدم:أبو جاد|✉️]])''' 12:57، 19 مايو 2023 (ت ع م)
+|-
+| 86
+| {{وصلة ويكي بيانات|Q97750366}}
+| {{#invoke:Sitelink|getSitelink2|Q97750366|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q97750366|en}}
+| {{#invoke:Sitelink|getSitelink2|Q97750366|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q97750366|es}}
+| {{تم}} -[[User:أبو جاد|<span style="color:#A3352E; font-size:18px; font-family:IBM Plex Sans English;">'''أبـو جــاد'''</span>]] '''([[نقاش المستخدم:أبو جاد|✉️]])''' 12:57، 19 مايو 2023 (ت ع م)
+|-
+| 87
+| {{وصلة ويكي بيانات|Q102046632}}
+| {{#invoke:Sitelink|getSitelink2|Q102046632|ar}}
+| {{#invoke:Sitelink|getSitelink2|Q102046632|en}}
+| {{#invoke:Sitelink|getSitelink2|Q102046632|fr}}
+| {{#invoke:Sitelink|getSitelink2|Q102046632|es}}
+| {{تم}} -[[User:أبو جاد|<span style="color:#A3352E; font-size:18px; font-family:IBM Plex Sans English;">'''أبـو جــاد'''</span>]] '''([[نقاش المستخدم:أبو جاد|✉️]])''' 12:57، 19 مايو 2023 (ت ع م)
+|}
