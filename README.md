@@ -8,7 +8,7 @@ Handles reservations of articles in-line and in tables, and counts the points fo
 Status: Completed
 
 ### In table:
-Status: In progress
+Status: Completed
 
 ### Point count:
-Status: coming soon
+Status: Completed
